@@ -9,7 +9,8 @@ Wasted staff time on managing schedules
 
 Inconvenience for patients needing phone calls or in-person bookings
 
-![Uploading Screenshot 2025-07-03 at 1.31.49 PM.png…]()
+
+<img width="1438" alt="Screenshot 2025-07-03 at 1 31 49 PM" src="https://github.com/user-attachments/assets/22fbf78e-8870-4c11-9507-7ab1dcc2dae7" />
 
 
 
