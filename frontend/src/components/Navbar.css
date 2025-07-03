@@ -1,0 +1,97 @@
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 64px;
+  background: rgba(30, 58, 138, 0.85); /* Deep blue with transparency */
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 24px rgba(30, 58, 138, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  z-index: 1200;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.navbar-logo span:first-child {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.navbar-title {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #90caf9;
+}
+
+.navbar-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #90caf9;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+
+.navbar-links a:hover::after,
+.navbar-links a.active::after {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .custom-navbar {
+    padding: 0 1rem;
+  }
+  .navbar-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+  }
+  .navbar-links {
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+}

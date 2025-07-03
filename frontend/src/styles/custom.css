@@ -1,0 +1,61 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  font-family: 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiContainer-root {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.MuiPaper-root {
+  border-radius: 18px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12) !important;
+  width: 100%;
+  max-width: 420px;
+}
+
+.MuiButton-containedPrimary {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.MuiAppBar-root {
+  background: linear-gradient(90deg, #d27c19 0%, #42a5f5 100%);
+  width: 100vw;
+  left: 0;
+  top: 0;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+  position: fixed !important;
+  z-index: 1200;
+}
+
+/* Main content should not be hidden behind the navbar */
+.main-content {
+  margin-top: 64px; /* Height of AppBar, adjust if needed */
+}
