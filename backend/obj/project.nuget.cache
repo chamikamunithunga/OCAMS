@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Woyhx0S8nQ=",
+  "success": true,
+  "projectFilePath": "/Users/chamikamunithunga/Desktop/OCAMS /backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/chamikamunithunga/.nuget/packages/microsoft.aspnetcore.openapi/9.0.6/microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "/Users/chamikamunithunga/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
